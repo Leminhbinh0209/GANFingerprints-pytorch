@@ -36,3 +36,5 @@ data
 |		|--- ...
 ```
 
+
+TODO: Implement the test code. It is straighforward, just laod the pre-trained model and forward image throug the `EncoderDecoder`
