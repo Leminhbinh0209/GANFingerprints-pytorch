@@ -38,3 +38,5 @@ data
 
 
 **TODO**: Implement the test code. It is straightforward, just load the pre-trained model and forward your test images through the `EncoderDecoder`
+#
+*Star if you find it useful.* ⭐
