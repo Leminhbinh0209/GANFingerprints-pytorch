@@ -74,7 +74,7 @@ class ImageDirectoryDataset(Dataset):
         classes.sort()
         self.class2idx = dict(zip(classes, range(len(classes))))
         print("All classes:", self.class2idx)
-        self.labels = [self.class2idx[str(p).split("/")[-3]] for p in self.files]
+        self.labels = [self.class2idx[str(p).split("/")[-2]] for p in self.files]
 
     def _get_files(self, path: Path, rec: bool = False) -> List[Path]:
         """
